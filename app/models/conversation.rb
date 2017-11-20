@@ -8,4 +8,7 @@
 #
 
 class Conversation < ApplicationRecord
+  has_many :messages
+  has_many :meetings
+  has_many :matches
 end
